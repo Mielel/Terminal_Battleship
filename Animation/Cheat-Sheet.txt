@@ -1,0 +1,49 @@
+\033[2J
+
+Clear seluruh layar
+
+\033[K atau \033[0K
+
+Bersihkan Baris (Kanan): Membersihkan dari posisi kursor saat ini hingga akhir baris.
+
+\033[1K
+
+Bersihkan Baris (Kiri): Membersihkan dari awal baris hingga posisi kursor saat ini.
+
+\033[2K
+
+Bersihkan Seluruh Baris: Menghapus seluruh baris tempat kursor berada (kursor tidak bergerak). Ini sangat berguna untuk mencetak ulang progress bar atau status.
+
+\033[<L>;<C>H atau \033[<L>;<C>f
+
+Pindah ke (Posisi Absolut): Memindahkan kursor ke baris <L> dan kolom <C>. Perintah ini adalah dasar dari semua TUI dan animasi.
+
+Contoh: \033[10;5H memindahkan kursor ke baris 10, kolom 5.
+
+\033[H
+
+Home: Pintasan untuk \033[1;1H. Memindahkan kursor ke pojok kiri atas (baris 1, kolom 1). Ini yang kita gunakan di kode animasi Anda.
+
+\033[<N>A
+
+Naik: Memindahkan kursor naik <N> baris. (Contoh: \033[2A).
+
+\033[<N>B
+
+Turun: Memindahkan kursor turun <N> baris.
+
+\033[<N>C
+
+Kanan (Forward): Memindahkan kursor ke kanan <N> kolom.
+
+\033[<N>D
+
+Kiri (Backward): Memindahkan kursor ke kiri <N> kolom.
+
+\033[s
+
+Simpan Posisi Kursor: Menyimpan posisi kursor saat ini di memori. Sangat berguna jika Anda ingin mencetak sesuatu di tempat lain lalu kembali lagi.
+
+\033[u
+
+Kembalikan Posisi Kursor: Mengembalikan kursor ke posisi terakhir yang disimpan oleh \033[s.
