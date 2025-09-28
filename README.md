@@ -22,7 +22,7 @@ _Displaying a visual of your project is highly recommended. It helps others quic
 ## 💻 Tech Stack
 
 * **Language:** C++
-* **Libraries:** iosteam, thread, string, chrono, vector, and random
+* **Libraries:** iosteam, thread, string, chrono, vector, atomic, and random
 
 ## ⚙️ Installation and Setup
 
