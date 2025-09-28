@@ -57,7 +57,7 @@ Ensure you have the necessary compiler/interpreter installed on your system, whi
     * Press `Enter` to confirm a ship's position.
 3.  **Start the Battle:** Once all ships are placed, the game begins.
 4.  **Fire at the Enemy:** Enter coordinates (e.g., `A5`, `C10`) to target a position on the enemy's grid.
-    * `O` indicates a miss.
-    * `X` indicates a hit.
+    * `O` indicates a hit.
+    * `X` indicates a miss.
 5.  **Win or Lose:** The game continues in turns until one player has sunk all of the opponent's ships.
 6.  **Play Again?** After the game ends, press `Enter` to exit the program, or press any other key to start a new game.
