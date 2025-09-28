@@ -19,3 +19,4 @@ void ShowBattleshipCursor(std::atomic<bool>& apakah_sudah_mulai, Player &player)
 void UpdateGridJikaAdaKapalHancur(Player playerAsal, Player &playerTujuan);
 void TungguSampaiKlikSuatuKey(std::atomic<bool>& masih_belum_pencet_apa_pun);
 void InputMetode(pilihCara& metode);
+void Restart(std::atomic<bool>& apakahRestart);

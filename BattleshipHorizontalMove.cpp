@@ -270,7 +270,7 @@ void Battleship::rotateHorizontalToVertikal(bool &apakah_bisa_rotasi){
 
             }
             // Cek Bagian bawah
-            if(baris_ke_bawah > batas_bawah_sumbu_y_grid){
+            if(baris_ke_bawah + 1> batas_bawah_sumbu_y_grid){
                 // Jika sudah melebihi ke bawah
                 belum_sampai_bawah = false;
             }
