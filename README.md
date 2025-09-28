@@ -8,8 +8,8 @@ This project is a terminal-based implementation of the classic strategy game, Ba
 
 _Displaying a visual of your project is highly recommended. It helps others quickly understand what you've built._
 
-![Example of the game in action](your-link-to-screenshot.png)
-
+![Example of the game in action](https://github.com/Mielel/Terminal_Battleship/blob/main/Assets/Main-Menu.png)
+![Example of the game in action](https://github.com/Mielel/Terminal_Battleship/blob/main/Assets/Battleship-Placement.png)
 ## ✨ Key Features
 
 * **Classic Gameplay:** Experience the traditional Battleship game in a retro terminal interface.
