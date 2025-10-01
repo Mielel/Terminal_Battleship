@@ -1,6 +1,6 @@
 # Terminal Battleship 🚢💥
 
-A classic Battleship board game playable entirely within your terminal, built with [Your Programming Language, e.g., Python/C++/Java].
+A classic Battleship board game playable entirely within your terminal, built with C++.
 
 This project is a terminal-based implementation of the classic strategy game, Battleship. Players face off against a computer opponent, strategically placing their fleet of ships on a grid. The objective is simple: hunt down and sink the enemy's entire fleet before they sink yours.
 
