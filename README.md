@@ -47,8 +47,13 @@ Ensure you have the necessary compiler/interpreter installed on your system, whi
     * Press `Backspace` to undo the placement of the previous ship.
     * Press `Enter` to confirm a ship's position.
 3.  **Start the Battle:** Once all ships are placed, the game begins.
-4.  **Fire at the Enemy:** Enter coordinates (e.g., `A5`, `C10`) to target a position on the enemy's grid.
+4.  **Fire at the Enemy:** Enter coordinates to target a position on the enemy's grid.
     * `O` indicates a hit.
     * `X` indicates a miss.
 5.  **Win or Lose:** The game continues in turns until one player has sunk all of the opponent's ships.
 6.  **Play Again?** After the game ends, press `Enter` to exit the program, or press any other key to start a new game.
+
+## ‼️ Bugs
+There are still some bugs in this project. I wouldn't fix those bugs since this project is mainly a private one for finishing a task from college. The bugs:
+1. Since this uses ANSI escape codes, it is fully dependent on the terminal. It is mandatory to keep the terminal size until it can show the whole game.
+2. Some logic bugs in moving the cursor when choosing a point to shoot. 
