@@ -37,10 +37,6 @@ Ensure you have the necessary compiler/interpreter installed on your system, whi
     g++ main.cpp Utilities/Accepting-input.cpp Animation/Utilities.cpp Animation/Main-Menu.cpp Utilities/PengubahGrid.cpp PlayerDefinition.cpp Animation/Tampilkan-Hit-or-Miss.cpp Utilities/Pencetak-Grid.cpp BattleshipDefinition.cpp BattleshipHorizontalMove.cpp BattleshipVerticalMove.cpp Animation/SelectMode.cpp Animation/Tutorial.cpp Animation/Winning.cpp -o hasil
     ./hasil
     ```
-4. **or just run the program**
-```bash
- ./hasil
-```
 
 ## 🎮 How to Play
 
