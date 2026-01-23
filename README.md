@@ -1,28 +1,19 @@
 # Terminal Battleship 🚢💥
 
-A classic Battleship board game playable entirely within your terminal, built with C++.
+A classic Battleship board game playable entirely within your terminal, built fully with C++. The project is made with the purpose of completing a task.
 
-This project is a terminal-based implementation of the classic strategy game, Battleship. Players face off against a computer opponent, strategically placing their fleet of ships on a grid. The objective is simple: hunt down and sink the enemy's entire fleet before they sink yours.
+This project is a terminal-based implementation of the classic strategy game, Battleship. Players face off against an opponent, strategically placing their fleet of ships on a grid. The objective is simple: hunt down and sink the enemy's entire fleet before they sink yours.
 
-## 🚀 Screenshot / GIF
+## 🚀 Screenshot
 
-_Displaying a visual of your project is highly recommended. It helps others quickly understand what you've built._
 
 ![Example of the game in action](https://github.com/Mielel/Terminal_Battleship/blob/main/Assets/Main-Menu.png)
 ![Example of the game in action](https://github.com/Mielel/Terminal_Battleship/blob/main/Assets/Battleship-Placement.png)
 ## ✨ Key Features
 
-* **Classic Gameplay:** Experience the traditional Battleship game in a retro terminal interface.
-* **Flexible Ship Placement Modes:**
-    * **Manual Mode:** Strategically place and rotate each ship using `WASD` for movement, `R` for rotation, and `Enter` to confirm. Made a mistake? `Backspace` lets you reset the previous ship.
+* **Classic Gameplay:**  Strategically place and rotate each ship using `WASD` for movement, `R` for rotation, and `Enter` to confirm. Made a mistake? `Backspace` lets you reset the previous ship.
     * **Randomizer Mode:** Get into the action quickly by letting the program automatically randomize your fleet's positions.
-* **Computer Opponent (AI):** Test your strategy against a computer opponent that will fire at your grid.
-* **Play Again Option:** Once a game concludes, you can choose to start a new match or exit the program.
 
-## 💻 Tech Stack
-
-* **Language:** C++
-* **Libraries:** iosteam, thread, string, chrono, vector, atomic, and random
 
 ## ⚙️ Installation and Setup
 
@@ -46,6 +37,10 @@ Ensure you have the necessary compiler/interpreter installed on your system, whi
     g++ main.cpp Utilities/Accepting-input.cpp Animation/Utilities.cpp Animation/Main-Menu.cpp Utilities/PengubahGrid.cpp PlayerDefinition.cpp Animation/Tampilkan-Hit-or-Miss.cpp Utilities/Pencetak-Grid.cpp BattleshipDefinition.cpp BattleshipHorizontalMove.cpp BattleshipVerticalMove.cpp Animation/SelectMode.cpp Animation/Tutorial.cpp Animation/Winning.cpp -o hasil
     ./hasil
     ```
+4. **or just run the program**
+```bash
+ ./hasil
+```
 
 ## 🎮 How to Play
 
